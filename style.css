@@ -635,3 +635,33 @@ footer {
         font-size: 38px;
     }
 }
+@media (max-width: 800px) {
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 35px 10px;
+        gap: 25px;
+    }
+
+    .hero-content {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-image {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto;
+    }
+
+    .hero-image img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        display: block;
+        object-fit: cover;
+    }
+}
